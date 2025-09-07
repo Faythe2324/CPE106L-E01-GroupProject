@@ -35,10 +35,10 @@ def mode(numbers):
     return min(modes)  # Return smallest mode if tie
 
 def main():
-    """Test the statistical functions with a sample list."""
+    """Testing"""
     sample_data = [4, 1, 2, 2, 5, 3, 3, 3, 4, 2]
     
-    print("Sample data:", sample_data)
+    print("Sample Data:", sample_data)
     print("Mean:", mean(sample_data))
     print("Median:", median(sample_data))
     print("Mode:", mode(sample_data))
