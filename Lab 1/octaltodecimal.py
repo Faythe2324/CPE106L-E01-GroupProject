@@ -1,4 +1,5 @@
-print("This program changes Octal Numbers to Decimal")
+print("This program changes Octal numbers to Decimal numbers.")
+
 num = input("Please enter your octal number: ")
 number = int(num)
 decNum = 0
@@ -14,3 +15,4 @@ else:
         exp += 1
 
 print("Your Octal value of {number} in Decimal form is:", decNum)
+        
