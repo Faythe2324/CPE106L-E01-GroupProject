@@ -1,7 +1,6 @@
 import random
 import oxo_data
 
-
 class Game:
     def __init__(self):
         self.board = [" "] * 9
