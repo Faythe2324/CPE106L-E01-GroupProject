@@ -1,5 +1,5 @@
 # Filename: stats.py
-# Author: Faythe Magsombol
+# Faythe Magsombol
 # Description: Module to compute mean, median, and mode of a list of numbers.
 
 from collections import Counter
