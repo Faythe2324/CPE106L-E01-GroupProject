@@ -7,7 +7,7 @@ def get_filename():
     root = tk.Tk()
     root.withdraw() 
     filename = filedialog.askopenfilename(
-        title="Select a txt file",
+        title="Kindly select a txt file.",
         filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
     )
     basename = os.path.basename(filename)
