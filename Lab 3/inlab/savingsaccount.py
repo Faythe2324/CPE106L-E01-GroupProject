@@ -5,7 +5,7 @@ This module defines the SavingsAccount class.
 
 class SavingsAccount:
     """This class represents a savings account
-    with the owner's name, PIN, and balance."""
+    with the owners name, PIN, and balance."""
 
     RATE = 0.02    # Single rate for all accounts
 
