@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def load_and_clean(filepath):
-    # Skip the first 10 rows of metadata before the header row
+    # Skip the first 9 rows of metadata before the header row
     df = pd.read_csv(filepath, skiprows=9)
     df.replace("", pd.NA, inplace=True)
     # Rename the first column to "Year"
@@ -23,7 +23,7 @@ def plot_prices(df):
     plt.plot(df["Year"], df["AvgPrice"], marker="o", linestyle="-", color="b")
     plt.title("Average Bread Price by Year")
     plt.xlabel("Year")
-    plt.ylabel("Average Price (USD)")
+    plt.ylabel("Average Price in (USD)")
     plt.grid(True)
     plt.tight_layout()
     plt.show()
